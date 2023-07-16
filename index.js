@@ -1,2 +1,3 @@
-$("h1").css("color", "red");
-$("h1").text("bye");
+$("button").click(function () {
+    $("h1").slideToggle();
+})
